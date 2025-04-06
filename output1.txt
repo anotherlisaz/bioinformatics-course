@@ -1,0 +1,143 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  PF00476.hmm
+# target sequence database:        ncbi_dataset/data/GCF_018135715.1/protein.faa
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       DNA_pol_A  [M=381]
+Accession:   PF00476.25
+Description: DNA polymerase family A
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+   1.7e-100  336.9   0.0   2.9e-100  336.1   0.0    1.4  1  XP_032512726.2  DNA polymerase theta [Danaus plexippus]
+    7.6e-98  328.2   0.0    9.5e-98  327.8   0.0    1.1  1  XP_032518839.2  DNA polymerase nu-like [Danaus plexippus]
+    3.3e-15   56.1   0.0    9.4e-14   51.4   0.0    2.2  1  XP_061380799.1  DNA polymerase subunit gamma-1, mitochondrial
+
+
+Domain annotation for each sequence (and alignments):
+>> XP_032512726.2  DNA polymerase theta [Danaus plexippus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  336.1   0.0    4e-104  2.9e-100      10     380 ..    1523    1890 ..    1514    1891 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 336.1 bits;  conditional E-value: 4e-104
+                      HHHHHHHHHHHHHHHHSSCE-STTTCCCCHHHHTCCCCS.TSSBSTTSBTTTHHHHHHHTS.T-HHHHHHHHHHHHHHHHHHTTTTG..GGGC CS
+       DNA_pol_A   10 eleeelkelekeiyelageefnlnSpkqLgevLfeklklpkkkktktgystdeevLeklaaeehpivkkileyrelaklkstyvdal..lkli 100 
+                      +++++ + l+k++++++g +fn+nS+k++++vL     l k++kt    st ++vL++    + p+ ++i+ +r+l+ + ++ + ++  ++++
+  XP_032512726.2 1523 DVKNSQEILQKKAFKICGYHFNFNSSKDVAKVLG----LYKGRKT----STRKSVLSAH---NSPMSSIIIYWRKLNSILTKSLYPIteQACV 1604
+                      678888999*********77***********996....6666676....8*******99...57**************976666666114566 PP
+
+                      BTTTSEE--EEESSSSSSSS-EEESS-GGGS-...............TTSCCHHHHHHTBCGSTTCCEEEEEEETTHHHHHHHHHCT-HHHHH CS
+       DNA_pol_A  101 npktgrihtsfnqtvtaTGrlsssePNLqnip...............irteegreiRkafvaeeegvlllsaDYsqiELrilAhlsgdeeLie 178 
+                       ++++ri +s+  + t TGr+s++ePNLqn+p                 +  + ++Rk+f a + g++++saDY+q+E+ril h+s+d +L++
+  XP_032512726.2 1605 YTEDNRISPSY-TMYTCTGRISMHEPNLQNLPrkftipanylcdnesCDDVIEFNCRKIFRAAP-GYVFISADYCQLEMRILTHFSKDVTLTR 1695
+                      889*******9.789*****************988888888877766566778899********.899************************* PP
+
+                      HHHTTH-HHHHHHHHHCTS-GGGHHHHHHHHHHHHHHHHHTT--HHHHHHHHTSSHHHHHHHHHHHHHHSHHHHHHHHHHHHHCCCESCCEET CS
+       DNA_pol_A  179 afkegeDiHtatAsevfgvpleevtkeqRrkaKavnFgiiYGisafgLaeqlgisrkeAkeliekYferypgvkeyleetveeakekgyvetl 271 
+                       + ++ D+++++A+++ gvp++ev+++ R+kaK++++gi+YG+++++L+++l++++ eA+ +++ ++++yp++k ++ +++ee+++kgyvetl
+  XP_032512726.2 1696 IMGSDVDVFKSIAASWSGVPEHEVDEDLRHKAKQLCYGILYGMGNRTLSQHLNVTELEAAYFMDMFYKTYPSIKVFTASLIEECRKKGYVETL 1788
+                      ********************************************************************************************* PP
+
+                      TCSEEEECTTT-CCHCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTT-SEEEEEEETTEEEEEEECCCHHHHHHHHHHHHHHHHHTT CS
+       DNA_pol_A  272 lgRrrylpeinsknkalrsaaeraAiNapiQGsaADiiklamikvekalkeeklkarlllqvHDELvfevpeeeleevaelvkeemekeaavk 364 
+                      ++Rrrylp+ins+  ++rsaaer+A+N++iQGsaADi k am+++++  +     + l+lq+HDEL++evp ++++++  ++k++m  e++v+
+  XP_032512726.2 1789 MKRRRYLPNINSSVPSKRSAAERQAVNTTIQGSAADIAKSAMCSIQQSTS-----SLLILQMHDELIYEVPVNNKQDFIVILKKSM--ENTVR 1874
+                      **********************************************9886.....569****************************..77778 PP
+
+                      SSS--EEEEEEESSCT CS
+       DNA_pol_A  365 lkVplkvevkvGknwg 380 
+                      l+Vpl v++k+G++wg
+  XP_032512726.2 1875 LNVPLPVKIKCGQTWG 1890
+                      ***************7 PP
+
+>> XP_032518839.2  DNA polymerase nu-like [Danaus plexippus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  327.8   0.0  1.3e-101   9.5e-98       3     381 .]     255     648 ..     253     648 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 327.8 bits;  conditional E-value: 1.3e-101
+                     HHHHHHHHHHHHHHHHHHHHHHHSSCE-STTTCCCCHHHHTCCCCS.T......SSBSTTS.BTTTHHHHHHHTS.T-HHHHHHHHHHHHHHHHH CS
+       DNA_pol_A   3 aleelseeleeelkelekeiyelageefnlnSpkqLgevLfeklklpk......kkktktg.ystdeevLeklaaeehpivkkileyrelaklks 90 
+                      le++ e +++++ke+e+e+y++ag++f++nS  qL+ +L+ +lkl++       k t +g  st+e+vL++l  + hp++ +ileyr+l+k +s
+  XP_032518839.2 255 GLEAMGEVVKTRMKEVEEECYRAAGKHFQINSAPQLRAILYGDLKLDQkcnitvRKTTAKGdKSTSEDVLRSLM-KVHPLPGLILEYRHLHKAHS 348
+                     68899999*****************99******************88877877555668888***********5.6******************* PP
+
+                     HTTTTGGGGCBTTTSEE--EEESSSSSSSS-EEESS-GGGS-...........TTSCCHHHHHHTBCGSTTCCEEEEEEETTHHHHHHHHHCT-H CS
+       DNA_pol_A  91 tyvdallklinpktgrihtsfnqtvtaTGrlsssePNLqnip...........irteegreiRkafvaeeegvlllsaDYsqiELrilAhlsgde 174
+                     t++ ++ +++   +g +++++ qt+++TGr+sss+PNLq ip             +    + R+++  +  g+ l++aD++q+E r+lAh ++de
+  XP_032518839.2 349 TFITGIAHHVV--NGVVKPTWDQTAAVTGRISSSNPNLQAIPktfnlvlfprdGADPVPLRFRSVYRGRA-GWRLVAADFKQVECRVLAHAARDE 440
+                     **********5..8****************************88887776544344677799******99.8*********************** PP
+
+                     HHHHHHHTTH-HHHHHHHHHCTS-GGGHHHHHHHHHHHHHHHHHTT--HHHHHHHHTSSHHHHHHHHHHHHHHSHHHHHHHHHHHHHCCCE.SCC CS
+       DNA_pol_A 175 eLieafkegeDiHtatAsevfgvpleevtkeqRrkaKavnFgiiYGisafgLaeqlgisrkeAkeliekYferypgvkeyleetveeakek.gyv 268
+                     +L +a+++ +D++t +A+++ ++p  ev+ ++R+++K+++++ +YG++a++La+ l++++ + +e+i+++ +++p++k++ e + +e++++ g v
+  XP_032518839.2 441 HLEQALRS-DDLFTDLAARWLEKPGREVSGRDRERTKRLVYAGLYGAGARTLADILQLPQGQLEEVIHSFDRTFPSLKRFCEGVWSECSRDgGRV 534
+                     *****987.6******************************************************************************9996899 PP
+
+                     EETTCSEEEECTTT-CCHCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTT-SEEEEEEETTEEEEEEECCCHHHHHHHHHHHHHHH.HH CS
+       DNA_pol_A 269 etllgRrrylpeinsknkalrsaaeraAiNapiQGsaADiiklamikvekalkeeklkarlllqvHDELvfevpeeeleevaelvkeemeke.aa 362
+                     +t+ +R r++p+i+s+++a+r++a+r+A+N++iQGsaA+++k+am+++ + l+++++  rlll vHDELv ev+++e+ ++a+++k +me+   +
+  XP_032518839.2 535 STVGRRTRTFPNISSDDAAMRAQARRQAVNFIIQGSAAELCKRAMCECVAGLRRAGVAGRLLLAVHDELVWEVAADEVPRAADIIKWSMESCgRQ 629
+                     9999999**********************************************************************************998778 PP
+
+                     TTSSS--EEEEEEESSCTC CS
+       DNA_pol_A 363 vklkVplkvevkvGknwge 381
+                     + l+Vpl v + +G++wg+
+  XP_032518839.2 630 LGLQVPLPVALYTGHSWGD 648
+                     899**************85 PP
+
+>> XP_061380799.1  DNA polymerase subunit gamma-1, mitochondrial [Danaus plexippus]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   51.4   0.0   1.3e-17   9.4e-14     136     352 ..     788    1055 ..     775    1080 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 51.4 bits;  conditional E-value: 1.3e-17
+                      CCHHHHHHTBCGSTTCCEEEEEEETTHHHHHHHHHCT-HHHH...HHH.........HTTH-HHHHHHHHHCTS-GGGHHHHHHHHHHHHHHH CS
+       DNA_pol_A  136 eegreiRkafvaeeegvlllsaDYsqiELrilAhlsgdeeLi...eaf.........kegeDiHtatAsevfgvpleevtkeqRrkaKavnFg 216 
+                      + g e+R++ +a++ g+ ++ aD    EL+i A l gd++L+   +af         ++++D+H+ tA               R++aK +n++
+  XP_061380799.1  788 RVGSELRSMVTAPP-GYRFVGADVDSQELWIAALL-GDSSLMcggSAFgwavlagdkRTNTDLHSLTAVAAGV---------RRDHAKVINYA 869 
+                      57899*********.799*************7766.6666665888999999999988899******987754.........6********** PP
+
+                      HHTT--HHHHHHHHT.....SSHHHHHHHHHHHHHHSHHHH......HHHHHHHHHCCCESCCEETTCSEEEEC................... CS
+       DNA_pol_A  217 iiYGisafgLaeqlg.....isrkeAkeliekYferypgvk......eyleetveeakekgyvetllgRrrylp................... 279 
+                       iYG++++   + l+     ++ +eAk+  +k f++ +g +      +++e  ++e + ++ ve    + + l                    
+  XP_061380799.1  870 RIYGAGQNFAERLLKqfnptMTISEAKSKAAKMFTTTKGKRvyrlkeKFMEGFMDEESGDQTVEMTSYQAMRLAklsgrttdemferprwegg 962 
+                      *****9865555553333558999******999999997766677787888887777777776654444444444888888888888888888 PP
+
+                      .........................TTT-CCHCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTT-SEEEEEEETTEEEEEEECCCHH CS
+       DNA_pol_A  280 .........................einsknkalrsaaeraAiNapiQGsaADiiklamikvekalkeeklkarlllqvHDELvfevpeeele 347 
+                                               +  s++ +  ++   + +N+++Q++aAD ++l+++++ +  +    +ar +l  HDE+ + vpee++ 
+  XP_061380799.1  963 teshmfnkleeiaesscprtsflegR-LSRSLEAAHNGGGTKLNWVVQSAAADFLHLMLVSMTHL-Q---PSARFCLSFHDEVRYLVPEEHKY 1050
+                      88888888888888888888777633.345556666678899******************99854.4...4589****************998 PP
+
+                      HHHHH CS
+       DNA_pol_A  348 evael 352 
+                      e+a  
+  XP_061380799.1 1051 EAALA 1055
+                      87744 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (381 nodes)
+Target sequences:                        21503  (13856303 residues searched)
+Passed MSV filter:                      1143  (0.0531554); expected 430.1 (0.02)
+Passed bias filter:                      403  (0.0187416); expected 430.1 (0.02)
+Passed Vit filter:                        47  (0.00218574); expected 21.5 (0.001)
+Passed Fwd filter:                         3  (0.000139515); expected 0.2 (1e-05)
+Initial search space (Z):              21503  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.41u 0.03s 00:00:00.43 Elapsed: 00:00:00.25
+# Mc/sec: 21117.01
+//
+[ok]
